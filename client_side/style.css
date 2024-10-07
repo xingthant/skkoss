@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to bottom right,
+            rgb(118, 255, 234),
+            #e92626);
+}
+
+
+
+.search {
+    border: 2px solid white;
+    background: transparent;
+}
+
+.search::placeholder {
+    color: white;
+}
+
+.search:focus::placeholder {
+    color: #f04646;
+}
+
+.search-btn {
+    background: transparent;
+}
+
+.nav-item a {
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #ed6161;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    background: white;
+}
+
+.btn-outline-primary {
+    border-width: 2px;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: white;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: white;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: #FF8C8C;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #FF8C8C;
+    --bs-btn-focus-shadow-rgb: rgb(139, 112, 112);
+    --bs-btn-active-color: #FF8C8C;
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: #FF8C8C;
+}
+
+.btn-primary {
+    border-width: 2px;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: white;
+    --bs-btn-bg: #FF8C8C;
+    --bs-btn-border-color: #FF8C8C;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: #FF8C8C;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #FF8C8C;
+    --bs-btn-focus-shadow-rgb: rgb(139, 112, 112);
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #FF8C8C;
+    --bs-btn-active-border-color: #FF8C8C;
+}
+
+/* product search */
+.product-search {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)),
+        url("images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.text-white {
+    color: white;
+}
+
+
+.catt:hover{
+    transform: translateX(10px);
+}
